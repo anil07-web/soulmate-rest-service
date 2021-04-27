@@ -9,12 +9,12 @@ public class Profile {
     private int id;
     private String name;
     private String gender;
-    private String age;
+    private int age;
 
     public Profile() {
     }
 
-    public Profile(int id, String name, String gender, String age) {
+    public Profile(int id, String name, String gender, int age) {
         this.id = id;
         this.name = name;
         this.gender = gender;
@@ -33,11 +33,11 @@ public class Profile {
         return name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 

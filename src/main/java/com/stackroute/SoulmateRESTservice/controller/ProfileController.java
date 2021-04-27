@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/vi")
+@RequestMapping("api/v1")
 public class ProfileController {
     private ProfileService profileService;
     @Autowired
